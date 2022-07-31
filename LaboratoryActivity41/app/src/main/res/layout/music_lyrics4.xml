@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="408dp"
+    android:layout_height="729dp"
+    android:background="@drawable/background"
+    android:fillViewport="true"
+    tools:layout_editor_AbsoluteX="1dp"
+    tools:layout_editor_AbsoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="81dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/mainMenu3"
+            app:layout_constraintHorizontal_bias="0.924"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/stat_sys_headset" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintStart_toEndOf="@+id/mainMenu3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <TextView
+            android:id="@+id/mainMenu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="Stray Heart"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="By: Green Day"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainMenu3" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="279dp"
+            android:layout_height="937dp"
+            android:layout_marginTop="8dp"
+            android:text="I lost my way, oh baby, this stray heart\n
+Went to another\n
+Can you recover, baby?\n
+Oh, you're the only one that I'm dreamin' of\n
+Your precious heart\n
+Was torn apart by me\n\n
+And you, you're not alone, oh-oh\n
+And now I'm where I belong\n
+We're not alone, oh-oh\n
+I'll hold your heart and never let go\n\n
+Everything that I want, I want from you\n
+But I just can't have you\n
+Everything that I need, I need from you\n
+But I just can't have you\n\n
+I said a thousand times, and now a thousand one\n
+We'll never part\n
+I'll never stray again from you\n
+This dog is destined for a home to your heart\n
+We'll never part\n
+I'll never stray again from you\n\n
+You're not alone, oh-oh\n
+And now I'm where I belong\n
+We're not alone, oh-oh\n
+I'll hold your heart and never let go\n
+Everything that I want, I want from you\n
+But I just can't have you\n
+Everything that I need, I need from you\n
+But I just can't have you\n
+You're not alone, oh-oh\n
+And now I'm where I belong\n
+We're not alone, oh-oh\n\n
+I'll hold your heart and never let go\n
+Everything that I want, I want from you\n
+But I just can't have you\n\n
+Everything that I need, I need from you\n
+But I just can't have you\n
+Everything that I want, I want from you\n
+But I just can't have you\n
+Everything that I need, I need from you\n
+But I just, just can't have you\n\n"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

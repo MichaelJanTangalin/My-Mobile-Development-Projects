@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="408dp"
+    android:layout_height="729dp"
+    android:background="@drawable/background"
+    android:fillViewport="true"
+    tools:layout_editor_AbsoluteX="1dp"
+    tools:layout_editor_AbsoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="81dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/mainMenu3"
+            app:layout_constraintHorizontal_bias="0.924"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/stat_sys_headset" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintStart_toEndOf="@+id/mainMenu3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <TextView
+            android:id="@+id/mainMenu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="X-Kid"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="By: Green Day"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainMenu3" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="282dp"
+            android:layout_height="1105dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:text="Hey, little kid\n
+Did you wake up late one day and\n
+You're not so young, but you're still dumb\n
+And you're numb to your old glory but now it's gone\n\n
+I fell in love, but it didn't catch your fall\n
+Then I crashed, into a wall\n
+Then I fell to pieces on the floor\n
+Now you're sick to death\n\n
+Bombs away, here goes nothing\n
+The shouting's over\n
+Hey X-Kid, bombs away\n
+Here goes nothing\n
+The shouting's over and out\n
+Over and out again\n\n
+I once was old enough\n
+To know better, man I was too young to care\n
+Many cares, probably would but\n
+Hollywood is dead and gone\n\n
+You fell in love but then you just fell apart\n
+Like a kick in the head\n
+You're an X-Kid and you never even got started again\n\n
+Bombs away, here goes nothing\n
+The shouting's over\n
+Hey X-Kid, bombs away\n
+Here goes nothing\n
+The shouting's over and out\n
+Over and out\n\n
+And you were such a young soul\n
+And you got lost and out of control\n
+You went over the edge of joking\n
+And I have a broken heart\n\n
+Hey, little kid\n
+Did you wake up late one day and\n
+You're not so young, but you're still dumb\n
+You're an X-Kid and you never even got started again\n
+Bombs away, here goes nothing\n
+The shouting's over\n
+Hey X-Kid, bombs away\n
+Here goes nothing\n
+The shouting's over\n
+Hey X-Kid, bombs away\n
+Here goes nothing\n
+The shouting's over\n
+Hey X-Kid, bombs away\n
+Here goes nothing\n
+The shouting's over and out\n
+Over and out\n
+Over and over and out\n\n"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="408dp"
+    android:layout_height="729dp"
+    android:background="@drawable/background"
+    android:fillViewport="true"
+    tools:layout_editor_AbsoluteX="1dp"
+    tools:layout_editor_AbsoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="81dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/mainMenu3"
+            app:layout_constraintHorizontal_bias="0.924"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/stat_sys_headset" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintStart_toEndOf="@+id/mainMenu3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <TextView
+            android:id="@+id/mainMenu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="Whatsername"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="By: Green Day"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainMenu3" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="291dp"
+            android:layout_height="809dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:text="Thought I ran into you down on the street\n
+Then it turned out to only be a dream\n\n
+I made a point to burn all of the photographs\n
+She went away, and then I took a different path\n
+I remember the face, but I can't recall the name\n
+Now I wonder how Whatsername has been\n\n
+Seems that she disappeared without a trace\n
+Did she ever marry ol' Whatshisface?\n
+I made a point to burn all of the photographs\n
+She went away, and then I took a different path\n
+I remember the face, but I can't recall the name\n
+Now I wonder how Whatsername has been\n\n
+Remember\n
+Whatever\n
+It seems like forever ago\n
+Remember\n
+Whatever\n
+It seems like forever ago\n\n
+the regrets\n
+(Whatever) are useless in my mind\n
+(It seems like forever ago) she's in my head, I must confess\n
+(Remember) the regrets\n
+(Whatever) are useless in my mind\n
+(It seems like forever ago) she's in my head, so long ago\n\n
+Go, go, go, go\n
+Go, go, go, go, go\n\n
+And in the darkest night\n
+If my memory serves me right\n
+I'll never turn back time\n
+Forgetting you, but not the time\n"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
